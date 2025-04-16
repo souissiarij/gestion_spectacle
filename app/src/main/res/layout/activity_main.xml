@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#fce4ec"
+    tools:context=".MainActivity">
+
+    <!-- Barre de recherche -->
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rechercher un spectacle..."
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:textColor="#212121"/>
+
+    <!-- Liste des spectacles -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Barre de navigation minimaliste -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <!-- Bouton Profil avec taille conforme -->
+        <ImageButton
+            android:id="@+id/profileButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="32dp"
+            android:src="@android:drawable/ic_menu_myplaces"
+            android:scaleType="centerInside"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Profil utilisateur"/>
+
+        <!-- Bouton Réservations avec taille conforme -->
+        <ImageButton
+            android:id="@+id/reservationsButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_menu_agenda"
+            android:scaleType="centerInside"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Mes réservations"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">projet spectacle</string>
+    <string name="select_city">Sélectionner une ville</string>
+    <string name="select_date">Sélectionner une date</string>
+    <string name="book_now">Réserver</string>
+    <string name="visit_website">Visiter le site web</string>
+    <string name="view_location">Voir la localisation</string>
+    <string name="spectacle_image">Image du spectacle</string>
+    <string name="search_hint">Rechercher un spectacle…</string>
+    <string name="city_hint">Ville</string>
+    <string name="date_hint">Date</string>
+    <string name="date_icon">Icône date</string>
+    <string name="location_icon">Icône lieu</string>
+    <string name="reserve_button">Réserver</string>
+</resources>

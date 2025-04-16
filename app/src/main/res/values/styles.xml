@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style de base de l'application -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#e91e63</item>
+        <item name="colorPrimaryDark">#c2185b</item>
+        <item name="colorAccent">#ff4081</item>
+        <item name="android:windowBackground">#fce4ec</item>
+    </style>
+
+    <!-- Style pour la SearchView -->
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="queryBackground">@drawable/rounded_search_view</item>
+
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+    <!-- Style pour les menus déroulants -->
+    <style name="DropdownMenu" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">#e91e63</item>
+        <item name="hintTextColor">#e91e63</item>
+        <item name="android:textColorHint">#e91e63</item>
+    </style>
+</resources>
