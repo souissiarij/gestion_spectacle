@@ -19,11 +19,21 @@
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/etUsername"
-        android:hint="Nom d'utilisateur"
+        android:id="@+id/etNom"
+        android:hint="Nom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
+        android:textColor="#000000"
+        android:background="@drawable/rounded_edittext"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etPrenom"
+        android:hint="Prénom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textColor="#000000"
         android:background="@drawable/rounded_edittext"
         android:padding="16dp"
@@ -39,6 +49,21 @@
         android:background="@drawable/rounded_edittext"
         android:padding="16dp"
         android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:hint="Téléphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:background="@drawable/rounded_edittext"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+
+
+
 
     <EditText
         android:id="@+id/etPassword"
@@ -62,6 +87,14 @@
         android:padding="16dp"
         android:layout_marginBottom="16dp" />
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
     <Button
         android:id="@+id/btnRegister"
         android:text="S'inscrire"
@@ -72,7 +105,8 @@
         android:backgroundTint="#e91e63"
         android:textSize="18sp"
         android:padding="16dp"
-        android:elevation="4dp" />
+        android:elevation="4dp"
+        android:enabled="true"/>
 
     <TextView
         android:id="@+id/tvLoginLink"

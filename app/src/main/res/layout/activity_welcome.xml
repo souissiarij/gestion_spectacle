@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_stars"
+    android:gravity="center"
+    android:padding="20dp">
+
+
+<TextView
+android:id="@+id/titleApp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="SAHRETNA 🎭"
+android:textColor="#FF4081"
+    android:textSize="42sp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-condensed"
+    android:shadowColor="#880E4F"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="4" />
+
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/titleApp"
+android:layout_marginTop="8dp"
+android:text="Votre gestionnaire de spectacles"
+android:textColor="#FFFFFF"
+android:textSize="16sp"
+android:alpha="0.8" />
+
+
+<ProgressBar
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/titleApp"
+android:layout_marginTop="40dp"
+android:indeterminate="true"
+android:indeterminateTint="#FFFFFF"
+android:progressBackgroundTint="#FF80AB" />
+
+    </RelativeLayout>

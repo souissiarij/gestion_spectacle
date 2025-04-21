@@ -91,6 +91,17 @@
                     tools:text="Théâtre de la Ville, Paris"/>
             </LinearLayout>
 
+            <!-- Prix (Solution sans icône) -->
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/text_secondary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Prix : 25€ - 50€"/>
+
             <!-- Bouton avec style moderne -->
             <Button
                 android:id="@+id/bookButton"
